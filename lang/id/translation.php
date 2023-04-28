@@ -226,15 +226,15 @@ return [
     "hot" => "Hot",
 
     "" => "",
-    "administration" => "Administration",
+    "administration" => "Administrasi",
     "master" => "Master",
-    "master-users" => "Master Users",
-    "master-employee" => "Master Employee",
-    "master-rooms" => "Master Rooms",
-    "master-items" => "Master Items",
-    "master-items-108" => "Master Items 108",
-    "master-suppliers" => "Master Suppliers",
-    "master-jobs" => "Master Jobs",
+    "master-users" => "Master Pengguna",
+    "master-employee" => "Master Pegawai",
+    "master-rooms" => "Master Ruang",
+    "master-items" => "Master Barang",
+    "master-items-108" => "Master Barang 108",
+    "master-suppliers" => "Master Pemasok",
+    "master-jobs" => "Master Jabatan",
 ];
 ?>
 

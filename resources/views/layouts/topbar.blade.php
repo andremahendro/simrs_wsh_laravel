@@ -160,6 +160,9 @@
                         @case('ae')
                         <img src="{{ URL::asset('/assets/images/flags/ae.svg') }}" class="me-2 rounded" alt="Header Language" height="20">
                         @break
+                        @case('id')
+                        <img src="{{ URL::asset('/assets/images/flags/id.svg') }}" class="me-2 rounded" alt="Header Language" height="20">
+                        @break
                         @default
                         <img src="{{ URL::asset('/assets/images/flags/us.svg') }}" class="me-2 rounded" alt="Header Language" height="20">
                         @endswitch
@@ -170,6 +173,12 @@
                         <a href="{{ url('index/en') }}" class="dropdown-item notify-item language py-2" data-lang="en" title="English">
                             <img src="{{ URL::asset('assets/images/flags/us.svg') }}" alt="user-image" class="me-2 rounded" height="20">
                             <span class="align-middle">English</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="{{ url('index/id') }}" class="dropdown-item notify-item language" data-lang="sp" title="Spanish">
+                            <img src="{{ URL::asset('assets/images/flags/id.svg') }}" alt="user-image" class="me-2 rounded" height="20">
+                            <span class="align-middle">Bahasa Indonesia</span>
                         </a>
 
                         <!-- item-->
