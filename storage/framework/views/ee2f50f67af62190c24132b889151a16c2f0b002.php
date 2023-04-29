@@ -57,8 +57,11 @@
                                 <a href="dashboard-nft" class="nav-link"> <?php echo app('translator')->get('translation.master-suppliers'); ?></a>
                             </li>
                             <li class="nav-item">
-                                <a href="dashboard-job" class="nav-link"><span><?php echo app('translator')->get('translation.job'); ?></span> <span class="badge badge-pill bg-success"><?php echo app('translator')->get('translation.new'); ?></span></a>
+                                <a href="dashboard-nft" class="nav-link"> <?php echo app('translator')->get('translation.master-jobs'); ?></a>
                             </li>
+                            <!-- <li class="nav-item">
+                                <a href="dashboard-job" class="nav-link"><span><?php echo app('translator')->get('translation.job'); ?></span> <span class="badge badge-pill bg-success"><?php echo app('translator')->get('translation.new'); ?></span></a>
+                            </li> -->
                         </ul>
                     </div>
                 </li> <!-- end Dashboard Menu -->
@@ -1009,7 +1012,6 @@
                         </ul>
                     </div>
                 </li>
-
             </ul>
         </div>
         <!-- Sidebar -->
@@ -1018,5 +1020,4 @@
 </div>
 <!-- Left Sidebar End -->
 <!-- Vertical Overlay-->
-<div class="vertical-overlay"></div>
-<?php /**PATH C:\laragon\www\simrs_wsh_laravel\resources\views/layouts/sidebar.blade.php ENDPATH**/ ?>
+<div class="vertical-overlay"></div><?php /**PATH C:\laragon\www\simrs_wsh_laravel\resources\views/layouts/sidebar.blade.php ENDPATH**/ ?>

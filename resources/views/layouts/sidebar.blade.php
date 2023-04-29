@@ -57,8 +57,11 @@
                                 <a href="dashboard-nft" class="nav-link"> @lang('translation.master-suppliers')</a>
                             </li>
                             <li class="nav-item">
-                                <a href="dashboard-job" class="nav-link"><span>@lang('translation.job')</span> <span class="badge badge-pill bg-success">@lang('translation.new')</span></a>
+                                <a href="dashboard-nft" class="nav-link"> @lang('translation.master-jobs')</a>
                             </li>
+                            <!-- <li class="nav-item">
+                                <a href="dashboard-job" class="nav-link"><span>@lang('translation.job')</span> <span class="badge badge-pill bg-success">@lang('translation.new')</span></a>
+                            </li> -->
                         </ul>
                     </div>
                 </li> <!-- end Dashboard Menu -->
@@ -1009,7 +1012,6 @@
                         </ul>
                     </div>
                 </li>
-
             </ul>
         </div>
         <!-- Sidebar -->
