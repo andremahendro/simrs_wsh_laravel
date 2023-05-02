@@ -25,10 +25,10 @@
                         <div class="text-center mt-sm-5 mb-4 text-white-50">
                             <div>
                                 <a href="index" class="d-inline-block auth-logo">
-                                    <img src="{{ URL::asset('assets/images/logo-light.png') }}" alt="" height="20">
+                                    <img src="{{ URL::asset('assets/images/simrs-logo-light.png') }}" alt="" height="20">
                                 </a>
                             </div>
-                            <p class="mt-3 fs-15 fw-medium">Premium Admin & Dashboard Template</p>
+                            <p class="mt-3 fs-15 fw-medium">RSUD dr. Wahidin Sudiro Husodo Kota Mojokerto</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                             <div class="card-body p-4">
                                 <div class="text-center mt-2">
                                     <h5 class="text-primary">Create New Account</h5>
-                                    <p class="text-muted">Get your free velzon account now</p>
+                                    <p class="text-muted">Get your free account now</p>
                                 </div>
                                 <div class="p-2 mt-4">
                                     <form class="needs-validation" novalidate method="POST"
@@ -119,7 +119,7 @@
 
                                         <div class="mb-4">
                                             <p class="mb-0 fs-12 text-muted fst-italic">By registering you agree to the
-                                                Velzon <a href="#"
+                                                SIMRS 2.0 <a href="#"
                                                     class="text-primary text-decoration-underline fst-normal fw-medium">Terms
                                                     of Use</a></p>
                                         </div>
@@ -175,10 +175,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script> Velzon. Crafted with <i
-                                    class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                            <p class="mb-0 text-muted">&copy; <script>document.write(new Date().getFullYear())</script> SIMRS 2.0 RSUD dr. Wahidin Sudiro Husodo. Underdevelopement with <i class="mdi mdi-heart text-danger"></i> by Mahendra</p>
                         </div>
                     </div>
                 </div>

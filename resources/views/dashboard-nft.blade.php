@@ -720,7 +720,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/btc.svg" class="avatar-xxs me-2" alt="">48,568.025</td>
+                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/btc.svg')}}" class="avatar-xxs me-2" alt="">48,568.025</td>
                                 <td>
                                     <span class="text-success mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>5.26
                                     </span>
@@ -741,7 +741,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/ltc.svg" class="avatar-xxs me-2" alt="">87,142.027</td>
+                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/ltc.svg')}}" class="avatar-xxs me-2" alt="">87,142.027</td>
                                 <td>
                                     <span class="text-danger mb-0"><i class="mdi mdi-trending-down align-middle me-1"></i>3.07
                                     </span>
@@ -761,7 +761,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/etc.svg" class="avatar-xxs me-2" alt="">33,847.961</td>
+                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/etc.svg')}}" class="avatar-xxs me-2" alt="">33,847.961</td>
                                 <td>
                                     <span class="text-success mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>7.13
                                     </span>
@@ -781,7 +781,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/dash.svg" class="avatar-xxs me-2" alt="">73,654.421</td>
+                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/dash.svg')}}" class="avatar-xxs me-2" alt="">73,654.421</td>
                                 <td>
                                     <span class="text-success mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>0.97
                                     </span>
@@ -802,7 +802,7 @@
                                         <div class="flex-grow-1"></div>
                                     </div>
                                 </td>
-                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/bnb.svg" class="avatar-xxs me-2" alt="">66,742.077</td>
+                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/bnb.svg')}}" class="avatar-xxs me-2" alt="">66,742.077</td>
                                 <td>
                                     <span class="text-danger mb-0"><i class="mdi mdi-trending-down align-middle me-1"></i>1.08
                                     </span>
@@ -822,7 +822,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/usdt.svg" class="avatar-xxs me-2" alt="">34,736.209</td>
+                                <td><img src="{{URL::asset('assets/images/svg/crypto-icons/usdt.svg')}}" class="avatar-xxs me-2" alt="">34,736.209</td>
                                 <td>
                                     <span class="text-success mb-0"><i class="mdi mdi-trending-up align-middle me-1"></i>4.52
                                     </span>
@@ -856,11 +856,11 @@
                 <div id="creators-by-locations" data-colors='["--vz-gray-200", "--vz-success", "--vz-primary"]' style="height: 265px" dir="ltr"></div>
 
                 <div class="mt-1">
-                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/us.svg" alt="" height="15" class="rounded me-2"> United States <span class="float-end">34%</span></p>
-                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/russia.svg" alt="" height="15" class="rounded me-2"> Russia <span class="float-end">27%</span></p>
-                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/spain.svg" alt="" height="15" class="rounded me-2"> Spain <span class="float-end">21%</span></p>
-                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/italy.svg" alt="" height="15" class="rounded me-2"> Italy <span class="float-end">13%</span></p>
-                    <p class="mb-0"><img src="{{URL::asset('assets/images/flags/germany.svg" alt="" height="15" class="rounded me-2"> Germany <span class="float-end">5%</span></p>
+                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/us.svg')}}" alt="" height="15" class="rounded me-2"> United States <span class="float-end">34%</span></p>
+                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/russia.svg')}}" alt="" height="15" class="rounded me-2"> Russia <span class="float-end">27%</span></p>
+                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/spain.svg')}}" alt="" height="15" class="rounded me-2"> Spain <span class="float-end">21%</span></p>
+                    <p class="mb-1"><img src="{{URL::asset('assets/images/flags/italy.svg')}}" alt="" height="15" class="rounded me-2"> Italy <span class="float-end">13%</span></p>
+                    <p class="mb-0"><img src="{{URL::asset('assets/images/flags/germany.svg')}}" alt="" height="15" class="rounded me-2"> Germany <span class="float-end">5%</span></p>
                 </div>
             </div>
             <!-- end card body -->

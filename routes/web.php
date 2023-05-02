@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Administrator\MasterUsersController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,4 +27,6 @@ Route::post('/update-password/{id}', [App\Http\Controllers\HomeController::class
 Route::get('{any}', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 
 // Master Users
-Route::get('master-users/{id}', [App\Http\Controllers\MasterUsers::class], 'index');
+Route::prefix('administrator/')->name('administrator.')->group(function () {
+    Route::get('v_master_users', [MasterUsersController::class, 'index'])->name('users.index');
+});

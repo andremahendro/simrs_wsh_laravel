@@ -8,7 +8,7 @@
                 <img src="{{ URL::asset('assets/images/logo-sm.png') }}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="{{ URL::asset('assets/images/logo-dark.png') }}" alt="" height="17">
+                <img src="{{ URL::asset('assets/images/simrs-logo-dark.png') }}" alt="" height="17">
             </span>
         </a>
         <!-- Light Logo-->
@@ -17,7 +17,7 @@
                 <img src="{{ URL::asset('assets/images/logo-sm.png') }}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="{{ URL::asset('assets/images/logo-light.png') }}" alt="" height="17">
+                <img src="{{ URL::asset('assets/images/simrs-logo-light.png') }}" alt="" height="17">
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
@@ -39,25 +39,25 @@
                     <div class="collapse menu-dropdown" id="sidebarMaster">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="dashboard-analytics" class="nav-link">@lang('translation.master-users')</a>
+                                <a href="{{ route('administrator.users.index') }}" class="nav-link">@lang('translation.master-users')</a>
                             </li>
                             <li class="nav-item">
-                                <a href="dashboard-crm" class="nav-link">@lang('translation.master-employee')</a>
+                                <a href="{{ url('dashboard-crm') }}" class="nav-link">@lang('translation.master-employee')</a>
                             </li>
                             <li class="nav-item">
-                                <a href="index" class="nav-link">@lang('translation.master-rooms')</a>
+                                <a href="{{ url('index') }}" class="nav-link">@lang('translation.master-rooms')</a>
                             </li>
                             <li class="nav-item">
-                                <a href="dashboard-crypto" class="nav-link">@lang('translation.master-items')</a>
+                                <a href="{{ url('dashboard-crypto') }}" class="nav-link">@lang('translation.master-items')</a>
                             </li>
                             <li class="nav-item">
-                                <a href="dashboard-projects" class="nav-link">@lang('translation.master-items-108')</a>
+                                <a href="{{ url('dashboard-projects') }}" class="nav-link">@lang('translation.master-items-108')</a>
                             </li>
                             <li class="nav-item">
-                                <a href="dashboard-nft" class="nav-link"> @lang('translation.master-suppliers')</a>
+                                <a href="{{ url('dashboard-nft') }}" class="nav-link"> @lang('translation.master-suppliers')</a>
                             </li>
                             <li class="nav-item">
-                                <a href="dashboard-nft" class="nav-link"> @lang('translation.master-jobs')</a>
+                                <a href="{{ url('dashboard-job') }}" class="nav-link"> @lang('translation.master-jobs')</a>
                             </li>
                             <!-- <li class="nav-item">
                                 <a href="dashboard-job" class="nav-link"><span>@lang('translation.job')</span> <span class="badge badge-pill bg-success">@lang('translation.new')</span></a>
@@ -1002,6 +1002,17 @@
                                                     </li>
                                                     <li class="nav-item">
                                                         <a href="#" class="nav-link">@lang('translation.level-3.2')</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="#sidebarTes" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="falsa" aria-controls="sidebarTes">@lang('translation.level-3.3')
+                                                        </a>
+                                                        <div class="collapse menu-dropdown" id="sidebarTes">
+                                                            <ul class="nav nav-sm flex-column">
+                                                                <li class="nav-item">
+                                                                    <a href="#" class="nav-link">@lang('translation.level-4.1')</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </li>
                                                 </ul>
                                             </div>
